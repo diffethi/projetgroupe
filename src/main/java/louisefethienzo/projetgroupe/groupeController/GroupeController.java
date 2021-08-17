@@ -15,6 +15,7 @@ public class GroupeController {
     GroupeService groupeService;
     @GetMapping("afficherLesMembres")
     public List<GroupeEntity> displayMembers() {
+
         List<GroupeEntity> members = new ArrayList<>();
         displayMembers().add(new GroupeEntity("louise"));
         displayMembers().add(new GroupeEntity("enzo"));
